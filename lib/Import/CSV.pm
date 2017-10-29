@@ -5,6 +5,7 @@ use warnings;
 use Exporter qw(import);
 use Data::Dumper;
 use Text::CSV_XS qw( csv );
+use SQL::Abstract;
 
 our @EXPORT = qw( import_csv );
 

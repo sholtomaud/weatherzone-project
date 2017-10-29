@@ -2,12 +2,37 @@
 
 ## Assumptions
 
-1. You have a MYSQL system is setup using the create_table_forecasts.sql
-2. Has a **test** db accessible from localhost without a password
+1. You have a MYSQL system which is setup using the create_table_forecasts.sql script
+2. The MYSQL db has a **test** db accessible from localhost without a password
+3. You have Git & Perl installed
+4. You have cpanm installed
+
+cpanm can be installed with:
+
+```bash
+
+curl -L https://cpanmin.us | perl - --sudo App::cpanminus
+
+```
 
 ## Setup
 
-Clone into a development directory with ```git clone https://github.com/shotlom/weatherzone-project.git```
+Clone into a development directory with:
+
+```bash
+
+git clone https://github.com/shotlom/weatherzone-project.git
+
+```
+
+Install dependencies:
+
+```bash
+
+cd weatherzone-project
+perl cpanm --installdeps .
+
+```
 
 ## Run
 
