@@ -1,0 +1,22 @@
+{
+  "LocCode": "loc_code",
+  "State": "state",
+  "Name": "loc_name",
+  "Date": "forecast_date",
+  "date": "forecast_date",
+  "Icon": "weather_icon",
+  "icon": "weather_icon",
+  "MinTemp": "temp_min",
+  "temp_min_c": "temp_min",
+  "MaxTemp": "temp_max",
+  "temp_max_c": "temp_max",
+  "9401":"TWCID",
+  "country":{
+    "code":"AU",
+    "name":"Australia"
+  },
+  "type": "loc_type",
+  "code":"loc_code",
+  "name": "loc_name",
+  "state": "state"
+}

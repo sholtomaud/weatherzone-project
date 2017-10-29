@@ -1,2 +1,4 @@
 wz_files
 .DS_Store
+*.tsv
+*.sql
