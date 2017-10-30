@@ -1,5 +1,7 @@
 # weatherzone-project
 
+Imports wz xml & csv files, into **MYSQL test** db, and outputs **output.tsv** file.
+
 ## Assumptions
 
 1. You have a MYSQL system which is setup using the create_table_forecasts.sql script
