@@ -25,12 +25,12 @@ git clone https://github.com/shotlom/weatherzone-project.git
 
 ```
 
-Install dependencies:
+Install dependencies (cpanm may require sudo):
 
 ```bash
 
 cd weatherzone-project
-perl cpanm --installdeps .
+cpanm --installdeps .
 
 ```
 
